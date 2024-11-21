@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
-import data from 'data.json';
-import Button from '@/components/Button.tsx';
+import data from '../../data.json';
+import Button from '../../components/Button';
 
 const MapButtons = () => {
   const { naverMap, kakaoMap } = data.mapInfo;

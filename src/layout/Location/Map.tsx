@@ -1,4 +1,4 @@
-import data from 'data.json';
+import data from '../../data.json';
 import { Container as MapDiv, Marker, NaverMap, useNavermaps } from 'react-naver-maps';
 
 const Map = () => {

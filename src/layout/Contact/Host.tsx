@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import data from 'data.json';
-import { BrideAndGroom } from '@/types/data.ts';
+import data from '../../data.json';
+import { BrideAndGroom } from '../../types/data';
 
 const Host = () => {
   const { groom, bride } = data.greeting.host;

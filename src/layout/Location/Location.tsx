@@ -1,9 +1,9 @@
 import styled from '@emotion/styled';
-import data from 'data.json';
-import Address from './Address.tsx';
-import Map from './Map.tsx';
-import MapButtons from './MapButtons.tsx';
-import { Caption, PointTitle } from '@/components/Text.tsx';
+import data from '../../data.json';
+import Address from './Address';
+import Map from './Map';
+import MapButtons from './MapButtons';
+import { Caption, PointTitle } from '../../components/Text';
 
 const Location = () => {
   const { mapInfo } = data;

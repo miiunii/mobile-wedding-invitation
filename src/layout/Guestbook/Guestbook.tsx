@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
-import CommentForm from './CommentForm.tsx';
-import { Heading2 } from '@/components/Text.tsx';
+import CommentForm from './CommentForm';
+import { Heading2 } from '../../components/Text';
 
 const Guestbook = () => {
   return (

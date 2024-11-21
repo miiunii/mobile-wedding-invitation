@@ -1,6 +1,7 @@
 import { ReactNode, useState } from 'react';
 import styled from '@emotion/styled';
-import ExpandMore from '@/assets/icons/expand_more.svg?react';
+import ExpandMore from '../assets/icons/expand_more.svg?react';
+
 
 interface IAccordionProps {
   title: string;
