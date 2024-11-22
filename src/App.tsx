@@ -10,6 +10,7 @@ import Guestbook from './layout/Guestbook/Guestbook';
 import Invitation from './layout/Invitation/Invitation';
 import Location from './layout/Location/Location';
 import Main from './layout/Main/Main';
+import TopBorder from './components/TopBorder';
 
 function App() {
   const ncpClientId = import.meta.env.VITE_APP_NAVERMAPS_CLIENT_ID;
@@ -42,22 +43,27 @@ function App() {
         <Wrapper>
           <Main />
         </Wrapper>
+        <TopBorder />
         <Wrapper>
           <Heading1>모시는 글</Heading1>
           <Invitation />
         </Wrapper>
+        <TopBorder />
         <Wrapper ref={galleryRef}>
           <Heading1>Gallery</Heading1>
           <GalleryWrap />
         </Wrapper>
+        <TopBorder />
         <Wrapper>
           <Heading1>마음 전하실 곳</Heading1>
           <Account />
         </Wrapper>
+        <TopBorder />
         <Wrapper>
           <Heading1>오시는 길</Heading1>
           <Location />
         </Wrapper>
+        <TopBorder />
         <Wrapper>
           <Heading1>신랑 신부에게</Heading1>
           <Guestbook />
