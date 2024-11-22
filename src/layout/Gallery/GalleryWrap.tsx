@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import styled from '@emotion/styled';
-import PhotoGallery from './PhotoGallery.tsx';
+import PhotoGallery from './PhotoGallery';
 
 const GalleryWrap = () => {
   const [isMoreView, setIsMoreView] = useState(false);
